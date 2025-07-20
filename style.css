@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* shared styles */
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.color-code1{
+    color: #3A3A3A;
+}
+
+.btn{
+    color: white;
+    background-color: #E02C6D;
+    margin-top: 16px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* navbar start */
+nav{
+     max-width: 1440px;
+     display: flex;
+     justify-content: space-between;
+     margin: 80px auto;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 34px;
+    color: #3A3A3A;
+}
+
+
+/* banner start */
+.banner{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1{
+    font-size: 3.25rem;
+    max-width: 582px;
+}
+
+.banner p{
+    max-width: 505px;
+}
+.banner-img{
+    background-image: url(./images/Circle\ design.svg);
+}
+.banner-img img{
+    padding-top: 40px;
+}
+
+/* companies start */
+
+.companies{
+    max-width: 1240px;
+    margin:70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* products start */
+
+.products{
+    margin: 100px auto;
+    max-width: 1240px;
+}
+
+.products h1:first-child{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.products .parent{
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);  
+    gap: 30px; 
+    justify-items: center;
+}
+
+.products .parent .child{
+    width: 300px;
+    padding: 20px 20px 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: white;
+    text-align: left;
+}
+
+.products .parent .child img:first-child{
+   width: 100%;
+   object-fit: cover;
+}
+
+.see-more{
+    text-align: right;
+}
+
+/* bottom start */
+.bottom{
+    max-width: 1440px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom img{
+    width: 100%;
+}
+
+.bottom-txt h1{
+    max-width: 610px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.bottom-txt p{
+    max-width: 500px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+/* footer start */
+footer{
+    max-width: 100%;
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    padding: 130px 415px;
+}
+
+
