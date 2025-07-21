@@ -92,11 +92,11 @@ nav ul li a{
 .banner p{
     max-width: 505px;
 }
-.banner-img{
+/* .banner-img{
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-}
+} */
 .banner-img img{
     padding-top: 40px;
 }
