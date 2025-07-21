@@ -55,6 +55,7 @@ nav ul li a{
 @media screen and (max-width:576px)
 {
     nav{
+        max-width: 100%;
         margin: 20px auto;
         flex-direction: column;
     }
@@ -125,6 +126,7 @@ nav ul li a{
 @media screen and (max-width:576px)
 {
     .companies{
+        max-width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 40px;
@@ -175,6 +177,11 @@ nav ul li a{
 
 @media screen and (max-width:576px)
 {
+
+    .products{
+        max-width: 100%;
+    }
+
     .products .parent{
         grid-template-columns: repeat(1,1fr) ;
     }
@@ -210,6 +217,7 @@ nav ul li a{
 @media screen and (max-width:576px)
 {
     .bottom{
+        max-width: 100%;
         flex-direction: column;
         text-align: center;
     }
@@ -229,6 +237,7 @@ footer{
 
 @media screen and (max-width:576px){
     footer{
+        max-width: 100%;
         padding:0;
     }
 }
