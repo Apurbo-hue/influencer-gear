@@ -94,6 +94,7 @@ nav ul li a{
 .banner-img{
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .banner-img img{
     padding-top: 40px;
